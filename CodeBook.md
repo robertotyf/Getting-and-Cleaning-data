@@ -18,4 +18,4 @@
 
 <h3>Dependencies</h3>
 
-run_analysis.R file will help you to install the dependencies automatically. It depends on plyr package.
+run_analysis.R file will help you to install the dependencies automatically, plyr package is used.
