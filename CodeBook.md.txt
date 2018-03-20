@@ -1,4 +1,4 @@
-#Getting and Cleaning Data<h1> tag
+Getting and Cleaning Data<h1> tag
 Course Project
 You should create one R script called run_analysis.R that does the following.
 
