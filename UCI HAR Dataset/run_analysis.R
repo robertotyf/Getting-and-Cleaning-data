@@ -6,6 +6,7 @@
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 #Set Working Directory
 
+setwd("C:/Users/pc/Desktop/R/Getting-and-Cleaning-data/UCI HAR Dataset")
 
 
 #1. Merge the training and the test data.
@@ -85,6 +86,6 @@ names(data_mean_std) <- gsub("Mag", "Magnitude", names(data_mean_std))
 tidydata_average_sub<- ddply(data_mean_std, c("subId","activityType"), numcolwise(mean))
 
 
-write.table(tidydata_average_sub,file="tidydata.txt")
+write.table(tidydata_average_sub,file="tidydata.txt",row.names = FALSE)
 
 
